@@ -1,0 +1,69 @@
+.Btns {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  position:sticky;
+  flex-wrap:wrap;
+  }
+.header {
+position: absolute;
+width: auto;
+height: 100px;
+left: 0px;
+top: 0px;
+flex-wrap:wrap;
+
+background: blanchedalmond;
+border-radius: 10px;
+
+@media (max-width: 767px) {
+  #nav-sidebar, #toggle-nav-sidebar {
+      display: none;
+  }
+
+  .main > #nav-sidebar + .content,
+  .main.shifted > #nav-sidebar + .content {
+      max-width: 100%;
+  }
+
+}}
+.BtnSearch{
+  height: 40px;
+  width: 80px;
+  flex-wrap:wrap;
+  
+}
+.inputfield {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: ;
+  margin-left: auto;
+  width: auto;
+  height: auto;
+}
+
+
+.Cartbtn {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  position:sticky;
+  left: 650px;
+  flex-wrap:wrap;
+}
+
+.img {
+  height: 75px;
+  width: 75px;
+
+}
+.bread {
+  width: auto;
+  height: auto;
+  flex-wrap:wrap;
+ 
+  position:sticky;
+
+}
